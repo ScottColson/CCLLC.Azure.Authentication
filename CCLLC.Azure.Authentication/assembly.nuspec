@@ -1,0 +1,23 @@
+﻿<?xml version="1.0"?>
+<package>
+  <metadata minClientVersion="3.3.0">
+    <id>CCLLC.Azure.Authentication</id>
+    <version>$version$</version>
+    <description>Azure App Authentication Helpers.</description>
+    <authors>Colson Code, LLC</authors>
+    <owners>Colson Code, LLC</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/ScottColson/CCLLC.Azure.Authentication</projectUrl>
+    <tags></tags>
+    <dependencies>
+      <dependency id="CCLLC.Core.Net" version="1.2.0.2" />
+      <dependency id="CCLLC.Core.RestClient" version="1.1.0" />
+      <dependency id="CCLLC.Core.Serialization" version="1.1.3" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\**\CCLLC.Azure.Authentication.dll" target="lib" />
+    <file src="bin\Release\**\CCLLC.Azure.Authenteication.pdb" target="lib" />
+  </files>
+</package>
